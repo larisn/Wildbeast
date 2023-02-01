@@ -1,0 +1,97 @@
+@import url(css/reset.css);
+
+
+@media (max-width: 760px) {
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color:  #d5b9ffb2;
+        border-radius: 20px;
+        
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #c9c9c923;
+    }
+
+    .estrutura {
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "header"
+        "sidenav"
+        "content"
+        "anuncios"
+        "footer";
+    }
+
+
+    .header {
+        grid-template-columns: auto;
+    }
+
+    .logo__wildbeast {
+        margin-bottom: 20px;
+    }
+
+    .header nav a {
+        font-size: 1em;
+    }
+
+    .header li + li {
+        margin-left: 10px;
+    }
+
+
+    .sidenav ul {
+        display: flex;
+    }
+
+    .sidenav ul li {
+        flex: 1 0 60px;
+    }
+
+    .sidenav {
+        position: relative; /* para a setinha ficar em relação ao sidenav */
+        padding: 0 30px;
+        overflow: auto;
+        
+        /* para o scroll funcionar no touch */
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .sidenav::after {
+        content: '→';
+        position: absolute;
+        top: 5px;
+        margin-right: -65px;
+        height: 30px;
+        color: rgb(0, 0, 0, .3);
+        animation: seta .5s ease-in 0s infinite alternate;
+    }
+
+    @keyframes seta {
+        from {
+            right: 30px;
+        }
+        to {
+            right: 20px;
+        }
+    }
+
+    .sidenav li a {
+        margin: 30px 30px 30px 0;
+    }
+}
+
+
+
+@media (max-width: 580px) {
+    .content {
+        grid-template-columns: auto;
+    }
+}

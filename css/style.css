@@ -1,0 +1,45 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Vollkorn', Georgia, serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.estrutura {
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 3fr 300px; 
+    /* minimo de largura do sidenav 160px e o máximo 1fr, o conteúdo ocupa 3 colunas e os anúncios possuem 300px fixos de tamanho. */
+    grid-template-areas: 
+    "header header header"
+    "sidenav content anuncios"
+    "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidenav {
+    grid-area: sidenav;
+}
+
+.content {
+    grid-area: content;
+}
+
+.anuncios {
+    grid-area: anuncios;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+

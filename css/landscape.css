@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+
+@media (max-width: 910px) {
+
+    .estrutura {
+        grid-template-areas: 
+        "header header header"
+        "sidenav content content"
+        "sidenav anuncios anuncios"
+        "footer footer footer";
+    }
+
+}
+
+
+

@@ -1,0 +1,13 @@
+@import url(reset.css);
+
+
+.footer {
+    background-image: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.footer p {
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
