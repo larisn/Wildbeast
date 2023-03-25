@@ -7,7 +7,7 @@
 
 ## 🔮 Sobre
 
-> Criação uma página 100% responsiva sobre uma espécie de lobo para praticar o uso de grid. Esse projeto foi feito com base na aula do Origamid
+> Criação uma página 100% responsiva sobre uma espécie de lobo para praticar o uso de grid. Esse projeto foi feito com base na aula do Origamid.
 
 <br>
 
