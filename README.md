@@ -1,5 +1,5 @@
 <h1 align="center">
-  <br>🐺 Wildbeast
+  <br>🐺<br> Wildbeast
 </h1>
 
 ![Preview](https://github.com/larisn/wildbeast/blob/main/imagens/Screenshot_1.png)
